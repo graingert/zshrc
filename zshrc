@@ -16,6 +16,8 @@ antigen bundle virtualenvwrapper
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-completions
 
+antigen bundle mollifier/cd-gitroot
+
 antigen theme graingert/agnoster-zsh-theme agnoster
 
 # Tell antigen that you're done.
@@ -37,4 +39,9 @@ alias gpff='git pull --ff-only origin master'
 alias gprb='git pull --rebase origin master'
 alias gprbi='git pull --rebase=interactive origin master'
 
-export PROMPT="%n@%m:%~%(!.#.$) "
+alias cdu='cd-gitroot'
+
+export PROMPT="%n@%m:%~%(!.#.$)"
+
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"

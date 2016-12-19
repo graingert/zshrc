@@ -44,4 +44,4 @@ alias cdu='cd-gitroot'
 export PROMPT="%n@%m:%~%(!.#.$)"
 
 export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
+eval "$(rbenv init - zsh)"

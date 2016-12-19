@@ -11,6 +11,7 @@ antigen bundle pip
 antigen bundle lein
 antigen bundle command-not-found
 antigen bundle virtualenvwrapper
+antigen bundle rbenv
 
 # Syntax highlighting bundle.
 antigen bundle zsh-users/zsh-syntax-highlighting
@@ -42,6 +43,3 @@ alias gprbi='git pull --rebase=interactive origin master'
 alias cdu='cd-gitroot'
 
 export PROMPT="%n@%m:%~%(!.#.$)"
-
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init - zsh)"

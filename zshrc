@@ -36,6 +36,7 @@ export PATH="$HOME/.bin:$HOME/.npm-packages/bin:$HOME/projects/git-cinnabar:$PAT
 
 # added by travis gem
 [ -f /home/graingert/.travis/travis.sh ] && source /home/graingert/.travis/travis.sh
+unalias gm  # graphicsmagick
 alias gpff='git pull --ff-only origin master'
 alias gprb='git pull --rebase origin master'
 alias gprbi='git pull --rebase=interactive origin master'

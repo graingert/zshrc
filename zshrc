@@ -18,6 +18,7 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-completions
 
 antigen bundle mollifier/cd-gitroot
+antigen bundle djui/alias-tips
 
 antigen theme graingert/agnoster-zsh-theme agnoster
 

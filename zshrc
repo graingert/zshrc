@@ -44,3 +44,7 @@ alias gprbi='git pull --rebase=interactive origin master'
 alias cdu='cd-gitroot'
 
 export PROMPT="%n@%m:%~%(!.#.$)"
+
+if [ $TERMINIX_ID ] || [ $VTE_VERSION ]; then
+        source /etc/profile.d/vte.sh
+fi

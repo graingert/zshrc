@@ -1,4 +1,4 @@
-source $HOME/projects/antigen/antigen.zsh
+source /usr/share/zsh-antigen/antigen.zsh
 export WORKON_HOME="$HOME/.virtualenvs"
 
 # Load the oh-my-zsh's library.
@@ -46,6 +46,6 @@ alias cdu='cd-gitroot'
 
 export PROMPT="%n@%m:%~%(!.#.$)"
 
-if [ $TERMINIX_ID ] || [ $VTE_VERSION ]; then
+if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
         source /etc/profile.d/vte.sh
 fi

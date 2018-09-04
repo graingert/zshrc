@@ -33,7 +33,7 @@ export PATH=$PATH:$GOPATH/bin
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
-export PATH="$HOME/.bin:$HOME/.npm-packages/bin:$HOME/projects/git-cinnabar:$PATH"
+export PATH="/snap/bin:$HOME/.bin:$HOME/.npm-packages/bin:$HOME/projects/git-cinnabar:$PATH"
 
 # added by travis gem
 [ -f /home/graingert/.travis/travis.sh ] && source /home/graingert/.travis/travis.sh

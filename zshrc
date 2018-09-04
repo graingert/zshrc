@@ -49,3 +49,6 @@ export PROMPT="%n@%m:%~%(!.#.$)"
 export PATH="${HOME}/.linuxbrew/bin:${PATH}"
 export MANPATH="${HOME}/.linuxbrew/share/man:${MANPATH}"
 export INFOPATH="${HOME}/.linuxbrew/share/info:${INFOPATH}"
+
+export NVM_DIR="$HOME/.nvm"
+source "${HOME}/.linuxbrew/opt/nvm/nvm.sh"

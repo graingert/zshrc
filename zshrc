@@ -36,7 +36,7 @@ export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="/snap/bin:$HOME/.bin:$HOME/.npm-packages/bin:$HOME/projects/git-cinnabar:$PATH"
 
 # added by travis gem
-[ -f /home/graingert/.travis/travis.sh ] && source /home/graingert/.travis/travis.sh
+[ -f "${HOME}/.travis/travis.sh" ] && source "${HOME}/.travis/travis.sh"
 unalias gm  # graphicsmagick
 alias gpff='git pull --ff-only origin master'
 alias gprb='git pull --rebase origin master'
@@ -51,4 +51,4 @@ export MANPATH="${HOME}/.linuxbrew/share/man:${MANPATH}"
 export INFOPATH="${HOME}/.linuxbrew/share/info:${INFOPATH}"
 
 export NVM_DIR="$HOME/.nvm"
-source "${HOME}/.linuxbrew/opt/nvm/nvm.sh"
+[ -f "${HOME}/.linuxbrew/opt/nvm/nvm.sh" ] && source "${HOME}/.linuxbrew/opt/nvm/nvm.sh"

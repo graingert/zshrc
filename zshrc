@@ -46,10 +46,6 @@ alias cdu='cd-gitroot'
 
 export PROMPT="%n@%m:%~%(!.#.$)"
 
-if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
-        source /etc/profile.d/vte.sh
-fi
-
 export PATH="${HOME}/.linuxbrew/bin:${PATH}"
 export MANPATH="${HOME}/.linuxbrew/share/man:${MANPATH}"
 export INFOPATH="${HOME}/.linuxbrew/share/info:${INFOPATH}"

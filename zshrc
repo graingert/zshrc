@@ -45,20 +45,6 @@ alias gprbi='git pull --rebase=interactive origin master'
 alias cdu='cd-gitroot'
 
 export PROMPT="%n@%m:%~%(!.#.$)"
-
-# set PATH so it includes user's private bin if it exists
-if [ -d "$HOME/bin" ] ; then
-    PATH="$HOME/bin:$PATH"
-fi
-
-# set PATH so it includes user's private bin if it exists
-if [ -d "$HOME/.local/bin" ] ; then
-    PATH="$HOME/.local/bin:$PATH"
-fi
-
-export PATH="${HOME}/.linuxbrew/bin:${PATH}"
-export MANPATH="${HOME}/.linuxbrew/share/man:${MANPATH}"
-export INFOPATH="${HOME}/.linuxbrew/share/info:${INFOPATH}"
 # 
 # export NVM_DIR="$HOME/.nvm"
 # [ -f "${HOME}/.linuxbrew/opt/nvm/nvm.sh" ] && source "${HOME}/.linuxbrew/opt/nvm/nvm.sh"
